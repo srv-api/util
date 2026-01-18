@@ -36,10 +36,6 @@ github.com/sirupsen/logrus v1.9.4 h1:TsZE7l11zFCLZnZ+teH4Umoq5BhEIfIzfRDZ1Uzql2w
 github.com/sirupsen/logrus v1.9.4/go.mod h1:ftWc9WdOfJ0a92nsE2jF5u5ZwH8Bv2zdeOC42RjbV2g=
 github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e h1:MRM5ITcdelLK2j1vwZ3Je0FKVCfqOLp5zO6trqMLYs0=
 github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e/go.mod h1:XV66xRDqSt+GTGFMVlhk3ULuV0y9ZmzeVGR4mloJI3M=
-github.com/srv-cashpay/auth v0.0.0-20260112052305-c1a26b1cc8f8 h1:PfJjpTj0K1vBd0wwWxWSmLCz4J/kQ9lM5cVy5H9hewE=
-github.com/srv-cashpay/auth v0.0.0-20260112052305-c1a26b1cc8f8/go.mod h1:6qAe2SptEgpeDkfvc+ru8pnVm74JCY6wJmNaN+HGzSg=
-github.com/srv-cashpay/merchant v0.0.0-20260112152648-1a662256b3eb h1:lkXHbcqXvii5WMDamie6nFRLo4VLJ4fw/bJLDf8dReE=
-github.com/srv-cashpay/merchant v0.0.0-20260112152648-1a662256b3eb/go.mod h1:LUF6MpYML7p9T1k5QRF6ghYy8I6tmp9vhYDv9LOWzVs=
 github.com/streadway/amqp v1.1.0 h1:py12iX8XSyI7aN/3dUT8DFIDJazNJsVJdxNVEpnQTZM=
 github.com/streadway/amqp v1.1.0/go.mod h1:WYSrTEYHOXHd0nwFeUXAe2G2hRnQT+deZJJf88uS9Bg=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
