@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	dto "github.com/srv-cashpay/auth/dto/auth"
-	dtom "github.com/srv-cashpay/merchant/dto"
+	dto "github.com/srv-api/auth/dto/auth"
+	dtom "github.com/srv-api/merchant/dto"
 
 	"golang.org/x/crypto/bcrypt"
 )
