@@ -13,6 +13,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.4
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
+	github.com/srv-api/auth v0.0.0-20260118094908-05d405c1917c
+	github.com/srv-api/merchant v0.0.0-20260118100625-2157c2d7a13f
 	github.com/streadway/amqp v1.1.0
 	github.com/stretchr/testify v1.11.1
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569

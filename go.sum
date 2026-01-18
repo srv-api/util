@@ -36,6 +36,10 @@ github.com/sirupsen/logrus v1.9.4 h1:TsZE7l11zFCLZnZ+teH4Umoq5BhEIfIzfRDZ1Uzql2w
 github.com/sirupsen/logrus v1.9.4/go.mod h1:ftWc9WdOfJ0a92nsE2jF5u5ZwH8Bv2zdeOC42RjbV2g=
 github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e h1:MRM5ITcdelLK2j1vwZ3Je0FKVCfqOLp5zO6trqMLYs0=
 github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e/go.mod h1:XV66xRDqSt+GTGFMVlhk3ULuV0y9ZmzeVGR4mloJI3M=
+github.com/srv-api/auth v0.0.0-20260118094908-05d405c1917c h1:O0dApS5dJul2rMCastzHaPfjspDTd9s1lGcNugo3kcI=
+github.com/srv-api/auth v0.0.0-20260118094908-05d405c1917c/go.mod h1:m/GBfhDN40rfwAsyWpW6ife7q3cQIAl5AAO294kQ9Xo=
+github.com/srv-api/merchant v0.0.0-20260118100625-2157c2d7a13f h1:FB6DBw8Pw7YQNL4Uzwmq+wfTtxfqHiwoOu4UPksx8u4=
+github.com/srv-api/merchant v0.0.0-20260118100625-2157c2d7a13f/go.mod h1:JKdP0mZOY1Rg3318TmN5xPJ/ADyYwiCdr+SHzdDvl3w=
 github.com/streadway/amqp v1.1.0 h1:py12iX8XSyI7aN/3dUT8DFIDJazNJsVJdxNVEpnQTZM=
 github.com/streadway/amqp v1.1.0/go.mod h1:WYSrTEYHOXHd0nwFeUXAe2G2hRnQT+deZJJf88uS9Bg=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
