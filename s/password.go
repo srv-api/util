@@ -6,7 +6,7 @@ import (
 	"time"
 
 	dto "github.com/srv-api/auth/dto/auth"
-	dtom "github.com/srv-api/merchant/dto"
+	dtom "github.com/srv-api/detail/dto"
 
 	"golang.org/x/crypto/bcrypt"
 )
@@ -29,7 +29,7 @@ func EncryptPassword(req *dto.SignupRequest) (err error) {
 	return nil
 }
 
-func EncryptPasswordUserMerchant(req *dtom.UserMerchantRequest) (err error) {
+func EncryptPasswordUserDetail(req *dtom.UserFullRequest) (err error) {
 	hashedPassword, err := GenerateFromPassword(req.Password)
 
 	if err != nil {

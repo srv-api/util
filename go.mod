@@ -1,8 +1,6 @@
 module github.com/srv-api/util
 
-go 1.24.4
-
-toolchain go1.24.12
+go 1.25.1
 
 require (
 	github.com/google/uuid v1.6.0
@@ -13,8 +11,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.4
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
-	github.com/srv-api/auth v0.0.0-20260118094908-05d405c1917c
-	github.com/srv-api/merchant v0.0.0-20260118100625-2157c2d7a13f
+	github.com/srv-api/auth v0.0.0-20260411121923-51e1017d1b10
+	github.com/srv-api/detail v0.0.0-20260413094535-9b45d0bd6528
 	github.com/streadway/amqp v1.1.0
 	github.com/stretchr/testify v1.11.1
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569

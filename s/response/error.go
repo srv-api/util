@@ -50,7 +50,7 @@ type errorConstant struct {
 	UnprocessableEntity   Error
 	Unauthorized          Error
 	BadRequest            Error
-	MerchantNoProvide     Error
+	DetailNoProvide       Error
 	Validation            Error
 	InternalServerError   Error
 	Unverified            Error
@@ -176,11 +176,11 @@ var ErrorConstant errorConstant = errorConstant{
 		},
 		Code: http.StatusForbidden,
 	},
-	MerchantNoProvide: Error{
+	DetailNoProvide: Error{
 		Response: errorResponse{
 			Meta: ResponseModel{
 				Status:  false,
-				Message: "Data merchant kamu harus dilengkapi dulu",
+				Message: "Data detail kamu harus dilengkapi dulu",
 			},
 			Error: E_BAD_REQUEST,
 		},
