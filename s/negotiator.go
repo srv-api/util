@@ -443,7 +443,7 @@ func Mail(to, otp string) error {
 	m := gomail.NewMessage()
 
 	// From
-	m.SetHeader("From", "Cashpay <mail@cashpay.co.id>")
+	m.SetHeader("From", "Misee <mail@cashpay.co.id>")
 	m.SetHeader("To", to)
 	m.SetHeader("Subject", "Your Verification Code")
 
@@ -462,11 +462,11 @@ func Mail(to, otp string) error {
 			</p>
 
 			<p>
-				To keep your account secure, we recommend using a unique password for your Cashpay account or using the Cashpay Account Access app to sign in.
+				To keep your account secure, we recommend using a unique password for your Misee account or using the Misee Account Access app to sign in.
 				Two-factor authentication makes signing in easier and safer — without needing to remember or change passwords.
 			</p>
 
-			<p style="margin-top:30px;">Best regards,<br/>Team Cashpay</p>
+			<p style="margin-top:30px;">Best regards,<br/>Team Misee</p>
 		</div>
 	`, otp)
 
