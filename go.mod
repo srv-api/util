@@ -10,14 +10,8 @@ require (
 	github.com/olivere/elastic/v7 v7.0.32
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.4
-<<<<<<< HEAD
-	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
-	github.com/srv-api/auth v0.0.0-20260411121923-51e1017d1b10
-	github.com/srv-api/detail v0.0.0-20260413094535-9b45d0bd6528
-=======
 	github.com/srv-api/auth v0.0.0-20260420072756-e0ab5a243ce4
 	github.com/srv-api/detail v0.0.0-20260426214428-3c4a6934d5bd
->>>>>>> e11cbc3 (new util)
 	github.com/streadway/amqp v1.1.0
 	github.com/stretchr/testify v1.11.1
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
@@ -35,12 +29,8 @@ require (
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-<<<<<<< HEAD
-	github.com/pmezard/go-difflib v1.0.0 // indirect
-=======
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
->>>>>>> e11cbc3 (new util)
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	golang.org/x/net v0.48.0 // indirect
