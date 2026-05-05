@@ -38,6 +38,8 @@ const (
 	E_VERIFIED             = "not_verified"
 	E_EXPIRED              = "account_expired"
 	E_MAXLIMIT             = "max_limit"
+	E_SWIPELIKE            = "swipe_like"
+	E_EXPLORE              = "explore"
 	E_COMPANYEJECT         = "company_eject"
 	E_REGISTERMAIL         = "mail_missing"
 	E_MAILVALIDATION       = "checker_mail"
@@ -58,6 +60,7 @@ type errorConstant struct {
 	Suspend               Error
 	VerifyPassword        Error
 	MaxLimit              Error
+	SwipeLike             Error
 	CompanyEject          Error
 	RegisterMail          Error
 	RegisterMailNotExists Error
@@ -103,6 +106,16 @@ var ErrorConstant errorConstant = errorConstant{
 				Message: "user has reached the maximum limit for adding data",
 			},
 			Error: E_MAXLIMIT,
+		},
+		Code: http.StatusConflict,
+	},
+	SwipeLike: Error{
+		Response: errorResponse{
+			Meta: ResponseModel{
+				Status:  false,
+				Message: "maximum swipe",
+			},
+			Error: E_SWIPELIKE,
 		},
 		Code: http.StatusConflict,
 	},
